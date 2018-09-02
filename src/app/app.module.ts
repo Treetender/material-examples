@@ -23,7 +23,6 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { LayoutModule } from '@angular/cdk/layout';
 
 const appRoutes: Routes = [
-  { path: '', component: AppComponent },
   { path: 'table1', component: UsertableComponent},
   { path: 'table2', component: Usertable2Component },
   { path: 'address', component: MyFormComponent },
